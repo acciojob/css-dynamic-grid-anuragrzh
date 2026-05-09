@@ -5,10 +5,13 @@
 	width:200px;
 	border-radius:5px;
 	font-size:40px;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .grid-container{
 	  display: grid;
      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
-    gap: 10px;               
+    gap: 15px;               
 	}
